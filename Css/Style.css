@@ -1,0 +1,82 @@
+/* Start-Global-Rules */
+/* Start-Root */
+:root {
+  --section-padding: 100px 0;
+  --main-color-section: #141619;
+  --liner-gradient-hover: #665dcd, #5fa4e6, #d2ab67;
+}
+/* End-Root */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: block;
+}
+span {
+  display: block;
+}
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Extra Small Devices */
+@media (max-width: 576px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/* Small Devices */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* Medium Devices */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* Large Devices */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* End-Global-Rules */
