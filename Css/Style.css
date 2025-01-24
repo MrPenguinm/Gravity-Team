@@ -103,6 +103,7 @@ img {
   font-weight: 400;
   letter-spacing: 0.53px;
   transition: var(--main-transition);
+  outline: none;
 }
 .nav-bar .container nav ul li a:hover,
 .nav-bar .container .btn:hover {
@@ -210,7 +211,6 @@ img {
   font-size: 20px;
   padding: 20px;
   width: fit-content;
-  outline: none;
 }
 .nav-bar .container .mobile ul li a:hover {
   color: rgb(255 255 255 / 70%);
