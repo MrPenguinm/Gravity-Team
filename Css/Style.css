@@ -210,6 +210,7 @@ img {
   font-size: 20px;
   padding: 20px;
   width: fit-content;
+  outline: none;
 }
 .nav-bar .container .mobile ul li a:hover {
   color: rgb(255 255 255 / 70%);
@@ -322,10 +323,12 @@ img {
   text-align: center;
 }
 .crypto .container .head-text h1 {
+  color: white;
   font-size: 56px;
   font-weight: 400;
 }
 .crypto .container .head-text p {
+  color: white;
   width: 50%;
   font-size: 20px;
   font-weight: 200;
@@ -341,12 +344,14 @@ img {
   flex-basis: 35%;
 }
 .crypto .container .sec .text h2 {
+  color: white;
   font-size: 36px;
   font-weight: normal;
 }
 .crypto .container .sec .text h3 {
   font-size: 20px;
   margin: 15px 0;
+  color: white;
 }
 .crypto .container .sec .text p {
   font-size: 20px;
