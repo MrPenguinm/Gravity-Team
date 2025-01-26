@@ -17,34 +17,56 @@
     <title>Gravity-Team-Website</title>
   </head>
   <body>
-    <!-- Start Header -->
-    <header>
-      <div class="nav-bar">
+    <!-- Start nav -->
+    <section class="nav-bar">
+      <section class="container">
         <div class="logo">
-          <img src="imge/logo.png" alt="logo" />
+          <img src="Imge/logo.png" alt="logo" />
         </div>
-        <ul>
-          <li><a href="#">About Us</a></li>
-          <li class="arrow"><a href="#">Our Services</a></li>
-          <li><a href="#">Work With Us</a></li>
-          <li><a href="#">Blog</a></li>
-        </ul>
-        <p>Get in touch</p>
-      </div>
+        <!-- Hamburger -->
+        <div class="menu">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+        <!--large screen-->
+        <nav>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Work With Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <!-- <button>Get in touch</button> -->
+            <!-- <button class="btn">Get in touch</button> -->
+          </ul>
+        </nav>
+        <button class="btn">Get in touch</button>
+        <nav class="mobile">
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Work With Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#" class="btn">Get in touch</a></li>
+          </ul>
+        </nav>
+      </section>
+    </section>
+    <!-- End nav -->
+    <!-- Start landing -->
+    <section class="landing-page">
       <div class="container">
-        <div class="main-head">
-          <h1>Balancing</h1>
-          <h1>Crypto Markets</h1>
-          <p>
-            Our fully automated proprietary quantitative trading software
-            provides 24/7 liquidity to 170+ crypto assets across 25+ centralized
-            spot and derivative crypto exchanges.
-          </p>
-          <button>Get in touch</button>
-        </div>
+        <h2>Balancing</h2>
+        <h2>Crypto Markets</h2>
+        <p>
+          Our fully automated proprietary quantitative trading software provides
+          24/7 liquidity to 170+ crypto assets across 25+ centralized spot and
+          derivative crypto exchanges.
+        </p>
+        <button><a href="#">Get in touch</a></button>
       </div>
-    </header>
-    <!-- End Header -->
+    </section>
+    <!-- End landing -->
     <!--Start-About-Section-->
     <main class="about" id="about">
       <section class="title">
@@ -309,7 +331,7 @@
         <section class="logo-text">
           <div class="text">
             <h2>Gravity Team</h2>
-            <a href="#">About Us</a>
+            <a href="#about">About Us</a>
             <a href="#">Work with Us</a>
           </div>
           <div class="logo">

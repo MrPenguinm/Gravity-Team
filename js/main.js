@@ -1,13 +1,21 @@
-//
+//counter About section
 let nums = document.querySelectorAll(".about .container .box span");
 let section = document.querySelector(".about");
 let started = false;
-//
+// slider testimonials section
 const allSlides = document.querySelectorAll(".slide");
 const dots = document.querySelectorAll(".dot");
 const arrowNext = document.getElementById("next");
 const arrowPrev = document.getElementById("prev");
-//
+// Navbar
+const menuOpen = document.querySelector(".nav-bar .container .menu");
+const navOpen = document.querySelector(".nav-bar .container .mobile");
+menuOpen.addEventListener("click", () => {
+  menuOpen.classList.toggle("active");
+  navOpen.classList.toggle("active");
+});
+// ===================================================
+//counter About section start
 window.onscroll = function () {
   if (window.scrollY >= section.offsetTop) {
     if (!started) {
@@ -25,6 +33,8 @@ function startCount(el) {
     }
   }, 10 / goal);
 }
+// ====================================================
+// slider testimonials section
 // step one current slide
 let currentSlide = 0;
 // step two
@@ -62,3 +72,4 @@ dots.forEach((dot, i) => {
     showSlide(currentSlide);
   });
 });
+// ====================================================
