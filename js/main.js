@@ -14,6 +14,8 @@ menuOpen.addEventListener("click", () => {
   menuOpen.classList.toggle("active");
   navOpen.classList.toggle("active");
 });
+// Up
+let upButton = document.querySelector(".up");
 //counter About section start
 window.onscroll = function () {
   if (window.scrollY >= section.offsetTop) {
@@ -66,3 +68,9 @@ dots.forEach((dot, i) => {
   });
 });
 // ====================================================
+window.addEventListener("scroll", function () {
+  upButton.style.opacity = window.scrollY > 200 ? "1" : "0";
+});
+upButton.addEventListener("click", function () {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});

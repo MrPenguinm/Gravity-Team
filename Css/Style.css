@@ -81,6 +81,23 @@ img {
   }
 }
 /* End-Global-Rules */
+/* Up */
+.up {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 15px;
+  border: 1px solid #665dcd;
+  border-radius: 50%;
+  transition: var(--main-transition);
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 0 10px 0 #322f2f40;
+  z-index: 1000;
+}
+.up:hover {
+  transform: scale(0.9);
+}
 /* Start-nav-bar */
 .nav-bar .container {
   display: flex;
