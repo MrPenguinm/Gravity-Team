@@ -94,6 +94,9 @@ img {
   outline: none;
   box-shadow: 0 0 10px 0 #322f2f40;
   z-index: 1000;
+  img {
+    transform: rotate(90deg);
+  }
 }
 .up:hover {
   transform: scale(0.9);
